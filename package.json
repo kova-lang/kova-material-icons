@@ -1,12 +1,11 @@
 {
   "name": "kova-material-icons",
   "displayName": "Kova Material Icons",
-  "description": "Material Design Icons for Visual Studio Code",
-  "version": "5.32.0",
+  "description": "Material Icon Theme with Kova language support",
+  "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "precompile": "rimraf dist && bun run verify",
-    "compile": "tsc -p ./",
+    "compile": "rimraf dist && tsc -p ./",
     "compile:declarations": "tsc -p ./tsconfig.declarations.json",
     "postcompile": "bun run compile:declarations && bun run generateJson && bun run generateClones && bun run check",
     "build": "bun run compile && bun ./build/build-with-esbuild.ts",
@@ -26,10 +25,9 @@
     "vscode:prepublish": "bun run lint && bun run build",
     "verify": "sheriff verify",
     "prepublishOnly": "bun ./src/scripts/module/prepare.ts",
-    "postpublish": "git checkout package.json && git checkout README.md",
-    "prepare": "husky"
+    "postpublish": "git checkout package.json && git checkout README.md"
   },
-  "publisher": "Samuel Oguntimehin",
+  "publisher": "kova-lang",
   "author": {
     "name": "Material Extensions",
     "email": "material-icons-extensions@googlegroups.com",
