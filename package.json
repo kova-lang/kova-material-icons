@@ -1,6 +1,6 @@
 {
-  "name": "material-icon-theme",
-  "displayName": "Material Icon Theme",
+  "name": "kova-material-icons",
+  "displayName": "Kova Material Icons",
   "description": "Material Design Icons for Visual Studio Code",
   "version": "5.32.0",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "postpublish": "git checkout package.json && git checkout README.md",
     "prepare": "husky"
   },
-  "publisher": "PKief",
+  "publisher": "Samuel Oguntimehin",
   "author": {
     "name": "Material Extensions",
     "email": "material-icons-extensions@googlegroups.com",
