@@ -28,7 +28,7 @@ npm run build
 - Open the project folder in VS Code
 - Press `F5` to launch the **Extension Development Host**
 - In the new VS Code window, open any folder containing `.kova` files
-- Go to **File → Preferences → File Icon Theme** and select **Kova Material Icons**
+- Go to **File → Preferences → File Icon Theme** and select **Material Icon Theme**
 - You should see the Kova icon appear next to `.kova` files
 
 ## Adding or Updating Icons
